@@ -15,7 +15,7 @@
         },
         "title"  : "Sandie's Blog",
         "comment"  : "on",
-        "domain_alias"  : ["blog.sandiejx.gitpress.org/"],
+        "domain_alias"  : ["blog.sandiejx.gitpress.org"],
         "friends"  : [
         		{
                         "name"  : "Akira's Blog",
