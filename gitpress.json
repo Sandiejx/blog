@@ -10,7 +10,7 @@
     },
     "title"  : "Sandie's blog",
     "description" : "Sunshine Snow Sandie",
-    "comment"  : {"type": "duoshuo", "short_name":"melon"},
+    "comment"  : {"type": "duoshuo", "short_name":"sandie"},
     "friends"  : [
         {
                 "name"  : "Akira's Blog",
