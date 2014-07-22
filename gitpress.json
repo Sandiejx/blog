@@ -1,56 +1,61 @@
 {
-        "docs"      : {
-        		"关于我的博客":"README.md",
-                "css": "posts/css",
-                "javascript": "posts/javascript",
-                "生活纪实": "posts/生活纪实",
-                "其他": "posts"
-        },        
-        "perpage"   : 5,
-        "types"     : {
-                "\\.(md||markdown)$"   : "markdown", 
-                "\\.(js||css||json)$"  : "code",
-                "\\.html?$"            : "html",
-                ".*"                   : "text"                
+    "docs"      : {"CSS": "docs/css", "Javascript": "docs/js", "trip": "docs/life", "Daily": "docs/daily"},
+    "template"    : "pithiness",
+    "perpage"   : 10,
+    "types"     : {
+        "\\.(md||markdown)$"   : "markdown", 
+        "\\.(js||css||json)$"  : "code",
+        "\\.html?$"            : "html",
+        ".*"                   : "text"        
+    },
+    "title"  : "Sandie's blog",
+    "description" : "Sunshine Snow Sandie",
+    "comment"  : {"type": "duoshuo", "short_name":"melon"},
+    "friends"  : [
+        {
+                "name"  : "Akira's Blog",
+                "title"  : "十年踪迹的博客",
+                "url"  : "http://blog.silverna.org/"                  
         },
-        "title"  : "Sandie's Blog",
-        "comment"  : "on",
-        "domain_alias"  : ["blog.sandiejx.gitpress.org"],
-        "friends"  : [
-        		{
-                        "name"  : "Akira's Blog",
-                        "title"  : "十年踪迹的博客",
-                        "url"  : "http://blog.silverna.org/"                  
-                },
-                {
-                        "name"  : "JerryQu的小站",
-                        "title"  : "屈屈的博客",
-                        "url"  : "http://imququ.com"                  
-                },
-                {
-                        "name"  : "奇舞团",
-                        "title"  : "奇舞团官方博客",
-                        "url"  : "http://www.75team.com"
-                },
-                {
-                        "name"  : "typeof.net",
-                        "title" : "typeof.net",
-                        "url"  :  "http://typeof.net/"
-                },
-                {
-                        "name"  : "never-online",
-                        "title" : "rank's technical notes",
-                        "url"        : "http://never-online.net/blog/"
-                },
-                {
-                        "name"  : "aoao",
-                        "title" : "样式之美 | 没落的角落",
-                        "url"   : "http://www.aoao.org.cn/"
-                },
-                {
-                        "name"  : "前端开源推荐",
-                        "title" : "前端开源推荐",
-                        "url"   : "http://boke.us/tags/weekly/"
-                }
-        ] 
+        {
+                "name"  : "JerryQu的小站",
+                "title"  : "屈屈的博客",
+                "url"  : "http://imququ.com"                  
+        },
+        {
+                "name" : "welefen",
+                "title": "welefen",
+                "url"  : "http://www.welefen.com/"
+        },
+        {
+                "name"  : "奇舞团",
+                "title"  : "奇舞团官方博客",
+                "url"  : "http://www.75team.com"
+        },
+        {
+                "name" : "奇舞周刊",
+                "title" : "奇舞周刊",
+                "url" : "http://www.75team.com/weekly/"
+        },
+        {
+                "name"  : "typeof.net",
+                "title" : "typeof.net",
+                "url"  :  "http://typeof.net/"
+        },
+        {
+                "name"  : "never-online",
+                "title" : "rank's technical notes",
+                "url"        : "http://never-online.net/blog/"
+        },
+        {
+                "name"  : "aoao",
+                "title" : "样式之美 | 没落的角落",
+                "url"   : "http://www.aoao.org.cn/"
+        },
+        {
+                "name" : "前端开源推荐",
+                "title": "前端开源推荐",
+                "url"  : "http://boke.us/tags/weekly/"
+        }
+    ] 
 }
