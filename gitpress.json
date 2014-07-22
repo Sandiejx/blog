@@ -1,6 +1,6 @@
 {
-    "docs"      : {"CSS": "docs/css", "Javascript": "docs/js", "trip": "docs/life", "Daily": "docs/daily"},
-    "template"    : "pithiness",
+    "docs"      : {"CSS": "docs/css", "Javascript": "docs/js", "Trip": "docs/life", "Daily": "docs/daily"},
+    "template"  : "pithiness",
     "perpage"   : 10,
     "types"     : {
         "\\.(md||markdown)$"   : "markdown", 
